@@ -19,7 +19,7 @@ You can always modify the colors according to your needs
 }
 
 .ygpts-widgetBtn {
-  background-color: transparent !important;
+  background-color: hsl(var(--yourgptChatbotPrimaryColorHsl)) !important;
   box-shadow: 1px 1px 16px 3px hsla(0, 0%, 100%, 0.1);
   border: 1px solid hsla(0, 0%, 100%, 0.1);
 }
@@ -31,7 +31,7 @@ You can always modify the colors according to your needs
 
 /* if you want Glassmorphism effect on widget body */
 .ygpts-frame {
-  background-color: hsla(0, 0%, 10%, 0.45);
+  background-color: hsl(var(--yourgptChatbotPrimaryColorHsl) / 0.45);
   backdrop-filter: blur(13px);
 }
 
@@ -40,4 +40,86 @@ You can always modify the colors according to your needs
   border-radius: 9999px;
   overflow: hidden;
 }
+
+.tabItem {
+  color: hsl(var(--yourgptChatbotTextColorHsl) / 0.6);
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    color: hsl(var(--yourgptChatbotTextColorHsl));
+  }
+  &.active {
+    color: hsl(var(--yourgptChatbotTextColorHsl));
+  }
+}
+
+.homeWrapper {
+  .homeHeader {
+    .homeHeaderCloseBtn,
+    .languagePickerBtn {
+      color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl)) !important;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        background-color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1) !important;
+      }
+    }
+
+    .languagePickerPopup {
+      border: 1px solid hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1) !important;
+    }
+  }
+
+  .homeSendBtn {
+    color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl)) !important;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      background-color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1) !important;
+    }
+  }
+
+  .HomeElementLink {
+    color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl)) !important;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl/0.7)) !important;
+    }
+  }
+}
+
+.sessionsWrapper {
+  .sessionsList {
+    .sessionItem {
+      &:hover {
+        background-color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.05) !important;
+      }
+
+      .countBox {
+        background-color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1);
+      }
+    }
+  }
+
+  .startNewConversationBtn {
+    background-color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1);
+  }
+}
+
+.footer {
+  .audioRecorderWrapper {
+    background-color: transparent !important;
+    .audioRecorderButton {
+      color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl)) !important;
+
+      .audioRecorderButtonText {
+        color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl)) !important;
+        border: 1px solid hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.15) !important;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          border: 1px solid hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1) !important;
+        }
+      }
+    }
+  }
+}
+
 ```

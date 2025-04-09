@@ -7,7 +7,6 @@ Copy the code below and paste in the CSS in branding section in Widget settings
 You can always modify the colors according to your needs
 
 ```
-
 .ygpt-chatbot.ygpt-chatbot {
   --yourgptChatbotPrimaryColorHsl: 0 0% 100%;
   --yourgptChatbotSurfaceColorHsl: 0 0% 100%;
@@ -31,8 +30,8 @@ You can always modify the colors according to your needs
 }
 
 .ygpts-frame {
-  background-color: hsla(0, 0%, 90%, 0.5);
-  backdrop-filter: blur(16px);
+  background-color: hsla(0, 0%, 90%, 0.3);
+  backdrop-filter: blur(20px);
 }
 
 /* If you want to make your avatar in header round */
@@ -51,8 +50,86 @@ You can always modify the colors according to your needs
   }
 }
 
-.footer{
-background-color: hsl(var(--yourgptChatbotPrimaryColorHsl)) !important;
+.tabItem {
+  color: hsl(var(--yourgptChatbotTextColorHsl) / 0.6);
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    color: hsl(var(--yourgptChatbotTextColorHsl));
+  }
+  &.active {
+    color: hsl(var(--yourgptChatbotTextColorHsl));
+  }
 }
 
+.homeWrapper {
+  .homeHeader {
+    .homeHeaderCloseBtn,
+    .languagePickerBtn {
+      color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl)) !important;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .homeHeaderCloseBtn:hover,
+    .languagePickerBtn:hover {
+      background-color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.05) !important;
+    }
+  }
+
+  .homeSendBtn {
+    color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl)) !important;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      background-color: hsl(var(--yourgptChatbotPrimaryColorHsl)) !important;
+    }
+  }
+
+  .HomeElementLink {
+    color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl)) !important;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.7) !important;
+    }
+  }
+}
+
+.sessionsList {
+  .sessionItem:hover {
+    background-color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.05) !important;
+  }
+}
+
+.chatContainer {
+  .chatBackBtn {
+    color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl)) !important;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background-color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.05) !important;
+    }
+  }
+  .chatMessagesList {
+    background-color: hsla(0, 0%, 90%, 0.3);
+  }
+}
+
+.footer {
+  background-color: hsl(var(--yourgptChatbotPrimaryColorHsl));
+
+  .audioRecorderWrapper {
+    background-color: transparent !important;
+    .audioRecorderButton {
+      color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl)) !important;
+
+      .audioRecorderButtonText {
+        color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl)) !important;
+        border: 1px solid hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.15) !important;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          border: 1px solid hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1) !important;
+        }
+      }
+    }
+  }
+}
 ```
