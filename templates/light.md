@@ -30,8 +30,8 @@ You can always modify the colors according to your needs
 }
 
 .ygpts-frame {
-  background-color: hsla(0, 0%, 90%, 0.3);
-  backdrop-filter: blur(20px);
+  background-color: hsla(0, 0%, 100%, 0.4);
+  backdrop-filter: blur(15px);
 }
 
 /* If you want to make your avatar in header round */
@@ -59,6 +59,11 @@ You can always modify the colors according to your needs
   &.active {
     color: hsl(var(--yourgptChatbotTextColorHsl));
   }
+}
+
+.sectionHeader, .chatHeader,
+.homeHeader {
+  box-shadow: 0 1px 17px 1px hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1);
 }
 
 .homeWrapper {
@@ -92,9 +97,20 @@ You can always modify the colors according to your needs
   }
 }
 
-.sessionsList {
-  .sessionItem:hover {
-    background-color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.05) !important;
+.sessionsWrapper {
+  .sessionsList {
+    .sessionItem {
+      &:hover {
+        background-color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.05) !important;
+      }
+      .countBox {
+        background-color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1);
+      }
+    }
+  }
+  .startNewConversationBtn {
+    background-color: hsl(var(--yourgptChatbotPrimaryColorHsl));
+    border: 1px solid hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1);
   }
 }
 
@@ -109,6 +125,14 @@ You can always modify the colors according to your needs
   }
   .chatMessagesList {
     background-color: hsla(0, 0%, 90%, 0.3);
+  }
+
+  .boxOuter2 {
+    .boxOuter {
+      .box {
+        border: 1px solid hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1);
+      }
+    }
   }
 }
 

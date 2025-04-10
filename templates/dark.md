@@ -10,12 +10,12 @@ You can always modify the colors according to your needs
 .ygpt-chatbot.ygpt-chatbot {
   --yourgptChatbotPrimaryColorHsl: 0 0% 6%;
   --yourgptChatbotSurfaceColorHsl: 0 0% 6%;
-  --yourgptChatbotTextColorHsl: 0 0% 80%;
-  --yourgptChatbotTextOnPrimaryColorHsl: 0 0% 80%;
+  --yourgptChatbotTextColorHsl: 0 0% 90%;
+  --yourgptChatbotTextOnPrimaryColorHsl: 0 0% 90%;
   --yourgptChatbotBotMessageBgColorHsl: 0 0% 8%;
-  --yourgptChatbotBotMessageTextColorHsl: 0 0% 80%;
+  --yourgptChatbotBotMessageTextColorHsl: 0 0% 90%;
   --yourgptChatbotUserMessageBgColorHsl: 0 0% 8%;
-  --yourgptChatbotUserMessageTextColorHsl: 0 0% 80%;
+  --yourgptChatbotUserMessageTextColorHsl: 0 0% 90%;
 }
 
 .ygpts-widgetBtn {
@@ -33,6 +33,9 @@ You can always modify the colors according to your needs
 .ygpts-frame {
   background-color: hsl(var(--yourgptChatbotPrimaryColorHsl) / 0.45);
   backdrop-filter: blur(13px);
+
+  /* Remove this if you don't want this border  */
+  border: 1px solid hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1);
 }
 
 /* If you want to make your avatar in header round */
@@ -49,6 +52,22 @@ You can always modify the colors according to your needs
   }
   &.active {
     color: hsl(var(--yourgptChatbotTextColorHsl));
+  }
+}
+
+.sectionHeader,
+.chatHeader,
+.homeHeader {
+  border-bottom: 1px solid hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1);
+}
+
+.chatContainer {
+  .boxOuter2 {
+    .boxOuter {
+      .box {
+        border: 1px solid hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1);
+      }
+    }
   }
 }
 
