@@ -41,7 +41,8 @@ You can always modify the colors according to your needs
 }
 
 .refreshIcon,
-.closeIcon {
+.closeIcon,
+.languagePickerBtn {
   color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.8) !important;
   transition: all 0.2s ease-in-out;
 
@@ -61,7 +62,8 @@ You can always modify the colors according to your needs
   }
 }
 
-.sectionHeader, .chatHeader,
+.sectionHeader,
+.chatHeader,
 .homeHeader {
   box-shadow: 0 1px 17px 1px hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1);
 }

@@ -19,9 +19,10 @@ You can always modify the colors according to your needs
 }
 
 .ygpts-widgetBtn {
-  background-color: hsl(var(--yourgptChatbotPrimaryColorHsl)) !important;
+  background: transparent !important;
   box-shadow: 1px 1px 16px 3px hsla(0, 0%, 0%, 0.1);
   border: 1px solid hsla(0, 0%, 0%, 0.1);
+  color: hsl(var(--yourgptChatbotTextColorHsl)) !important;
 }
 
 .ygpts-widgetBtn:hover {
@@ -165,5 +166,4 @@ You can always modify the colors according to your needs
     }
   }
 }
-
 ```

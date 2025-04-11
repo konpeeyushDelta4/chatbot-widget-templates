@@ -25,8 +25,8 @@ You can always modify the colors according to your needs
 }
 
 .ygpts-widgetBtn:hover {
-  box-shadow: 1px 1px 16px 3px hsla(0, 0%, 100%, 0.2);
-  border: 1px solid hsla(0, 0%, 100%, 0.2);
+  box-shadow: 1px 1px 16px 3px hsla(0, 0%, 100%, 0.15);
+  border: 1px solid hsla(0, 0%, 100%, 0.15);
 }
 
 /* if you want Glassmorphism effect on widget body */
@@ -71,19 +71,27 @@ You can always modify the colors according to your needs
   }
 }
 
+.languagePickerBtn {
+  color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.7) !important;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl)) !important;
+    background-color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1) !important;
+  }
+}
+
+.languagePickerPopup {
+  border: 1px solid hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1) !important;
+}
+
 .homeWrapper {
   .homeHeader {
-    .homeHeaderCloseBtn,
-    .languagePickerBtn {
+    .homeHeaderCloseBtn {
       color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl)) !important;
       transition: all 0.2s ease-in-out;
       &:hover {
         background-color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1) !important;
       }
-    }
-
-    .languagePickerPopup {
-      border: 1px solid hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1) !important;
     }
   }
 
@@ -118,7 +126,8 @@ You can always modify the colors according to your needs
   }
 
   .startNewConversationBtn {
-    background-color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1);
+    background: hsl(var(--yourgptChatbotPrimaryColorHsl));
+    border: 1px solid hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1);
   }
 }
 
@@ -140,5 +149,4 @@ You can always modify the colors according to your needs
     }
   }
 }
-
 ```
