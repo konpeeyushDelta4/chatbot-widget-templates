@@ -1,3 +1,7 @@
+![MonoChrome Theme Preview](https://assets.yourgpt.ai/widget/widget-themes-styles/yourgpt-widget-black-white.png)
+
+[▶️ Watch Video Demo](https://assets.yourgpt.ai/widget/widget-themes-styles/yourgpt-widget-black-white.mp4)
+
 ### Black & White Theme
 
 ---

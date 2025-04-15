@@ -1,3 +1,7 @@
+![Obsidian Theme Preview](https://assets.yourgpt.ai/widget/widget-themes-styles/yourgpt-widget-obs-black.png)
+
+[▶️ Watch Video Demo](https://assets.yourgpt.ai/widget/widget-themes-styles/yourgpt-widget-obs-black.mp4)
+
 ### Dark Theme
 
 ---

@@ -1,3 +1,7 @@
+![Cloud Theme Preview](https://assets.yourgpt.ai/widget/widget-themes-styles/yourgpt-widget-white-blue.png)
+
+[▶️ Watch Video Demo](https://assets.yourgpt.ai/widget/widget-themes-styles/yourgpt-widget-white-blue.mp4)
+
 ### Light Theme
 
 ---
