@@ -32,7 +32,7 @@ You’re done. No build tools, no install.
 
 - Clean white with soft shadows  
 - Ideal for light mode websites  
-- CSS file: [`Cloud.md`](./Cloud.md)
+- CSS file: [`Cloud.md`](https://github.com/your-repo-name/blob/master/templates/Cloud.md)
 
 ---
 
@@ -46,7 +46,7 @@ You’re done. No build tools, no install.
 
 - High-contrast, zero distractions  
 - Great for minimalist or portfolio sites  
-- CSS file: [`MonoChrome.md`](./MonoChrome.md)
+- CSS file: [`MonoChrome.md`](https://github.com/your-repo-name/blob/master/templates/MonoChrome.md)
 
 ---
 
@@ -60,7 +60,7 @@ You’re done. No build tools, no install.
 
 - Playful colors and bold borders  
 - Inspired by brutalist web design  
-- CSS file: [`NeoBrutalism.md`](./NeoBrutalism.md)
+- CSS file: [`NeoBrutalism.md`](https://github.com/your-repo-name/blob/master/templates/NeoBrutalism.md)
 
 ---
 
@@ -74,7 +74,7 @@ You’re done. No build tools, no install.
 
 - All-black with neon text glow  
 - Great for dark dashboards and tech sites  
-- CSS file: [`Obsidian.md`](./Obsidian.md)
+- CSS file: [`Obsidian.md`](https://github.com/your-repo-name/blob/master/templates/Obsidian.md)
 
 ---
 
