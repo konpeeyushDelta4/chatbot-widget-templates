@@ -238,7 +238,7 @@ You can always modify the colors according to your needs
       }
     }
 
-    .homeElemenCard {
+    .homeElementCard {
       border: 2px solid hsl(var(--yourgptChatbotTextColorHsl)) !important;
       border-radius: 0 !important;
       box-shadow: 4px 4px 0 0 hsl(var(--yourgptChatbotTextColorHsl)) !important;
@@ -247,6 +247,7 @@ You can always modify the colors according to your needs
 
       .ygc-item {
         border: none;
+        border-radius: 4px;
       }
 
       &:hover {
