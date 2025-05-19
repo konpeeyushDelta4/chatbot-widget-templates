@@ -73,11 +73,11 @@ You can always modify the colors according to your needs
   border: 2px solid hsl(var(--yourgptChatbotPrimaryColorHsl)) !important;
 }
 
-.tabs {
+.ygc-tabs {
   gap: 5px !important;
   padding: 5px 5px !important;
 
-  .tabItem {
+  .ygc-tabItem {
     color: hsl(var(--yourgptChatbotTextColorHsl)) !important;
     font-weight: bold !important;
     padding: 8px 16px !important;
@@ -86,7 +86,7 @@ You can always modify the colors according to your needs
     border-radius: 999px !important;
     height: fit-content !important;
 
-    .tabText {
+    .ygc-tabText {
       display: none !important;
     }
 
@@ -106,7 +106,7 @@ You can always modify the colors according to your needs
 
 .sectionHeader,
 .chatHeader,
-.homeHeader {
+.ygc-homeHeader {
   background-color: hsl(var(--yourgptChatbotPrimaryColorHsl)) !important;
   color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl)) !important;
   border-bottom: 2px solid hsl(var(--yourgptChatbotPrimaryColorHsl)) !important;
@@ -181,7 +181,7 @@ You can always modify the colors according to your needs
 }
 
 .homeWrapper {
-  .homeHeader {
+  .ygc-homeHeader {
     .languagePickerPopup {
       border: 2px solid hsl(var(--yourgptChatbotTextColorHsl)) !important;
       border-radius: 0 !important;
@@ -245,7 +245,7 @@ You can always modify the colors according to your needs
       border-radius: 5px !important;
       transition: all 0.1s ease-in-out !important;
 
-      .item {
+      .ygc-item {
         border: none;
       }
 
@@ -290,7 +290,7 @@ You can always modify the colors according to your needs
         background-color: hsl(var(--yourgptChatbotBrutalAccentColorHsl) / 0.3) !important;
       }
 
-      .countBox {
+      .ygc-sessionItem-countBox {
         background-color: hsl(var(--yourgptChatbotBrutalAccentColorHsl)) !important;
         color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl)) !important;
         border-radius: 0 !important;
@@ -322,7 +322,7 @@ You can always modify the colors according to your needs
   }
 }
 
-.footer {
+.ygc-footer {
   background-color: hsl(var(--yourgptChatbotSurfaceColorHsl)) !important;
   border-top: 2px solid hsl(var(--yourgptChatbotPrimaryColorHsl)) !important;
 

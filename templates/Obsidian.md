@@ -48,7 +48,7 @@ You can always modify the colors according to your needs
   overflow: hidden;
 }
 
-.tabItem {
+.ygc-tabItem {
   color: hsl(var(--yourgptChatbotTextColorHsl) / 0.6);
   transition: all 0.2s ease-in-out;
   &:hover {
@@ -61,7 +61,7 @@ You can always modify the colors according to your needs
 
 .sectionHeader,
 .chatHeader,
-.homeHeader {
+.ygc-homeHeader {
   border-bottom: 1px solid hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1);
 }
 
@@ -89,7 +89,7 @@ You can always modify the colors according to your needs
 }
 
 .homeWrapper {
-  .homeHeader {
+  .ygc-homeHeader {
     .homeHeaderCloseBtn {
       color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl)) !important;
       transition: all 0.2s ease-in-out;
@@ -123,7 +123,7 @@ You can always modify the colors according to your needs
         background-color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.05) !important;
       }
 
-      .countBox {
+      .ygc-sessionItem-countBox {
         background-color: hsl(var(--yourgptChatbotTextOnPrimaryColorHsl) / 0.1);
       }
     }
@@ -135,7 +135,7 @@ You can always modify the colors according to your needs
   }
 }
 
-.footer {
+.ygc-footer {
   .audioRecorderWrapper {
     background-color: transparent !important;
     .audioRecorderButton {
