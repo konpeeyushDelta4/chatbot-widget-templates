@@ -173,23 +173,20 @@ You can always modify the colors according to your needs
     .boxOuter {
       .box {
         border: 2px solid hsl(var(--yourgptChatbotTextColorHsl)) !important;
-        // border-radius: 0 !important;
         box-shadow: 3px 3px 0 0px hsl(var(--yourgptChatbotTextColorHsl)) !important;
       }
     }
   }
 }
 
-.homeWrapper {
-  .ygc-homeHeader {
-    .languagePickerPopup {
-      border: 2px solid hsl(var(--yourgptChatbotTextColorHsl)) !important;
-      border-radius: 0 !important;
-      box-shadow: 4px 4px 0 0 hsl(var(--yourgptChatbotTextColorHsl)) !important;
-      background-color: hsl(var(--yourgptChatbotSurfaceColorHsl)) !important;
-    }
-  }
+.languagePickerPopup {
+  border: 2px solid hsl(var(--yourgptChatbotTextColorHsl)) !important;
+  border-radius: 5px !important;
+  box-shadow: 4px 4px 0 0 hsl(var(--yourgptChatbotTextColorHsl)) !important;
+  background-color: hsl(var(--yourgptChatbotSurfaceColorHsl)) !important;
+}
 
+.homeWrapper {
   .homeQueryBox {
     .homeQueryTextArea {
       border: 2px solid hsl(var(--yourgptChatbotTextColorHsl)) !important;
