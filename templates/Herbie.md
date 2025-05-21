@@ -1,6 +1,6 @@
-![Herbie Theme Preview](https://assets.yourgpt.ai/widget/widget-themes-styles/yourgpt-widget-obs-black.png)
+![Herbie Theme Preview](https://assets.yourgpt.ai/widget/widget-themes-styles/yourgpt-widget-herbie-theme.png)
 
-[▶️ Watch Video Demo](https://assets.yourgpt.ai/widget/widget-themes-styles/yourgpt-widget-obs-black.mp4)
+[▶️ Watch Video Demo](https://assets.yourgpt.ai/widget/widget-themes-styles/yourgpt-widget-herbie-Fantastic4.mp4)
 
 ### Herbie Theme
 
