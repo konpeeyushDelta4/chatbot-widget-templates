@@ -78,6 +78,18 @@ You’re done. No build tools, no install.
 
 ---
 
+## 🤖 Herbie Theme - For Retro-Futuristic Enthusiasts
+
+<p align="center">
+  <img src="https://assets.yourgpt.ai/widget/widget-themes-styles/yourgpt-widget-herbie-theme.png" alt="Herbie Theme" width="400">
+</p>
+
+[▶️ Watch Demo](https://assets.yourgpt.ai/widget/widget-themes-styles/yourgpt-widget-herbie-Fantastic4.mp4)
+
+- Retro Futuristic Design  
+- Inspired by Marvel's Fantastic4 
+- CSS file: [`Herbie.md`](https://github.com/YourGPT/chatbot-widget-templates/blob/master/templates/Herbie.md)
+
 ## 🛠 Customisation
 
 All themes are editable:
