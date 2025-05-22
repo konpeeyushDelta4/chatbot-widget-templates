@@ -89,6 +89,21 @@ You’re done. No build tools, no install.
 - Retro Futuristic Design  
 - Inspired by Marvel's Fantastic4 
 - CSS file: [`Herbie.md`](https://github.com/YourGPT/chatbot-widget-templates/blob/master/templates/Herbie.md)
+  
+
+---
+
+## 🤖 Doom Theme - Dark Metallic Theme
+
+<p align="center">
+  <img src="" alt="Doom Theme" width="400">
+</p>
+
+[▶️ Watch Demo]()
+
+- Retro Futuristic Design  
+- Inspired by Marvel's Fantastic4 
+- CSS file: [`Doom.md`](https://github.com/YourGPT/chatbot-widget-templates/blob/master/templates/Doom.md)
 
 ## 🛠 Customisation
 
