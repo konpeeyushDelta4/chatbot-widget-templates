@@ -105,13 +105,29 @@ You’re done. No build tools, no install.
 - Inspired by Marvel's Fantastic4 
 - CSS file: [`Doom.md`](https://github.com/YourGPT/chatbot-widget-templates/blob/master/templates/Doom.md)
 
+---
+
+## 🤖 Minecraft Theme - For Gaming Enthusiasts
+
+<p align="center">
+  <img src="" alt="Doom Theme" width="400">
+</p>
+
+[▶️ Watch Demo]()
+
+- Pixelated design
+- Inspired by Minecraft
+- CSS file: [`Minecraft.md`](https://github.com/YourGPT/chatbot-widget-templates/blob/master/templates/Minecraft.md)
+
+---
+
 ## 🛠 Customisation
 
 All themes are editable:
 
 - 🎨 Change colors by adjusting HSL values  
 - 🔲 Customize shadows, borders, corners  
-- 🧩 Mix elements from different themes  
+- 🧩 Mix elements from different themes 
 
 ---
 
